@@ -26,7 +26,7 @@ def drop_zeroes(file_name, header_l, col_name):
 
 
 def report_stats(stats, out_name, col_name):
-    print "File output to: {}\n\tPreserved {} lines out of {} total parsed lines from column: \"{}\".".format(out_name, stats[0], stats[1], col_name)
+    print "File output to: {}\n\tPreserved {} lines out of {} total parsed lines from column: \"{}\"    .".format(out_name, stats[0], stats[1], col_name)
 
 
 def _drop_zeroes(dict_reader, dict_writer, col_name, insert_space=True):
